@@ -6,26 +6,41 @@
     <title>Git & Terminal Learning Notes & commands</title>
 </head>
 <body>
-    <!-- 
-     We can use git --help to see all the git commands and their usage.
-     We can add files and changes by using git add [commandfilename...].
-     Also if there are large amount of files then we just just git add . command only and all the files will be added to the repository and become staged.
-     WE can use clear command to clear all the commands in the terminal.
-     WE can use ls command to see all the files and directories in the current directory.
-     WE can use cd [nameofTargetdirectory...] command to change the directory to the Target directory.
-     WE can use cd .. command to go back to the previous directory.
-     WE can use mkdir [nameofdirectory...] command to create a new directory.
-     We can use touch [nameoffile...] command to create a new file.
-     WE can use git config --global user.name "your name" to set the user name for git commits.
-     WE can use git config --global user.email "your email" to set the user email for git commits.
-     WE can use git config --global --list to see the list of all the global configurations.
-     WE use git branch [branchname...] to create a new branch.
-     WE use git checkout [Targetbranchname...] to switch to the specified branch.
-     WE use git checkout -b [newbranchname...] to create and switch to a new branch in a single command.
-     WE use git -d [branchname...] to delete the specified branch.Note we cannot delete the branch we are currently on.
-     WE use git merge [branchname...] to merge the specified branch into the current branch.
-     There are 
-      -->
+    <!--                            "Git & Terminal Learning Notes & Commands"
+        
+     1. We can use git --help to see all the git commands and their usage.
+     1.WE can use git clone [repository URL...] to clone a remote repository to the local machine.
+     2. We can add files and changes by using git add [commandfilename...].
+     3. Also if there are large amount of files then we just just git add . command only and all the files will be added to the repository and become staged.
+     4. WE can use clear command to clear all the commands in the terminal.
+     5. WE can use ls command to see all the files and directories in the current directory.
+     6. WE can use cd [nameofTargetdirectory...] command to change the directory to the Target directory.
+     7. WE can use cd .. command to go back to the previous directory.
+     8. WE can use mkdir [nameofdirectory...] command to create a new directory.
+     9. We can use touch [nameoffile...] command to create a new file.
+     10. WE can use git config --global user.name "your name" to set the user name for git commits.
+     11. WE can use git config --global user.email "your email" to set the user email for git commits.
+     12. WE can use git config --global --list to see the list of all the global configurations.
+     13. WE use git branch [branchname...] to create a new branch.
+     14. WE use git checkout [Targetbranchname...] to switch to the specified branch.
+     15. WE use git checkout -b [newbranchname...] to create and switch to a new branch in a single command.
+     16. WE use git -d [branchname...] to delete the specified branch.Note we cannot delete the branch we are currently on.
+     17. WE use git merge [branchname...] to merge the specified branch into the current branch.
+     18. There are two ways to merge and compare branches one is by using git commands and other is by using Pull Requests(PR) on GitHub.
+     19. WE use git diff [SpecificBranchname...] to see the differences between the current branch and the specific branch.
+     20. We use git merge [SpecificBranchname...] to merge the specific branch into the current branch.
+     21. For merging branches on Github we need to send a pull request(PR) to the repository owner and after review the changes will be merged.
+     22. WE use git pull origin [branchname...] to pull the latest changes from the remote repository to the local repository.
+     23. WE use git push origin [branchname...] to push the local changes to the remote repository.
+     24. Also there are two ways to check commit history one is by using git log command and other is by using GitHub website.
+     25. Also we can copy the commit hash from git log and also from GitHub website.
+     26. WE can use git reset [commit hash...] to reset the current branch to the specified commit hash.Also we can use git reset --hard [commit hash...] to reset the git to a specific commit also from the VS code.
+     27. WE can use git clone [repository URL...] to clone a remote repository to the local machine.
+     28. WE use git reset [FileNAme...] to unstage a file.
+     29. WE use git reset to unstage all the files.
+     30. WE use git reset HEAD~1 to undo the last commit.
+
+     -->
 
       <!--                           Git & GitHub WORKFLOW
 
