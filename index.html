@@ -48,22 +48,25 @@
      37. WE can use git push origin main --force command to forcely push changes from local to remote if remote repo have some content which your local dont have. 
      38. WE can use git remote add origin <Repo URL> command to just link a local repo to the remote repo without cloning. 
      39. WE can use git remote -v command to verify if our both local and remote are linked or not.
+     40. If you accidently link to wrong remote repo then you can remove it using git remote remove origin command and then link it again using git remote add origin <remote repo url>.
+     41. Donot run git add . command in an empty folder atleast create one html dummy file to avoid errors while pushing to remote.
 
 
      -->
 
-      <!--                           Git & GitHub WORKFLOW
+      <!--                           Git & GitHub True WORKFLOW
         
         1. Create a local repository on your machine wite your code and intialize it by using git init command.
         2. Create a new repository on GitHub with the same name as local repo and copy its url.
         3. Now link both local and remote repo using git remote add origin <remote repo url>.
         4. Then verify the linkage using git remote -v command.
-        5. Then apply git add . command.
-        6. Then apply commit command git commit -m "message".
-        7. Then forcely push the changes using git push origin <branch name> --force command.
+        5. If you accidently link to wrong remote repo then you can remove it using git remote remove origin command and then link it again using git remote add origin <remote repo url>.
+        6. Then apply git add . command. Donot run git add . command in an empty folder atleast create one html dummy file to avoid errors while pushing to remote.
+        7. Then apply commit command git commit -m "message".
+        8. Then forcely push the changes using git push origin <branch name> --force command.
 
 
-
+                              False Workflow
 
         1. Create a new repository on GitHub.
         2. Create a local repository on your machine and intialize it by using git init command.
