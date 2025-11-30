@@ -6,78 +6,78 @@
     <title>Git & Terminal Learning Notes & commands</title>
 </head>
 <body>
-    <!--                            "Git & Terminal Learning Notes & Commands"
-        
-     1. We can use git --help to see all the git commands and their usage.
-     1.WE can use git clone [repository URL...] to clone a remote repository to the local machine.
-     2. We can add files and changes by using git add [commandfilename...].
-     3. Also if there are large amount of files then we just just git add . command only and all the files will be added to the repository and become staged.
-     4. WE can use clear command to clear all the commands in the terminal.
-     5. WE can use ls command to see all the files and directories in the current directory.
-     6. WE can use cd [nameofTargetdirectory...] command to change the directory to the Target directory.
-     7. WE can use cd .. command to go back to the previous directory.
-     8. WE can use mkdir [nameofdirectory...] command to create a new directory.
-     9. We can use touch [nameoffile...] command to create a new file.
-     10. WE can use git config --global user.name "your name" to set the user name for git commits.
-     11. WE can use git config --global user.email "your email" to set the user email for git commits.
-     12. WE can use git config --global --list to see the list of all the global configurations.
-     13. WE use git branch [branchname...] to create a new branch.
-     14. WE use git checkout [Targetbranchname...] to switch to the specified branch.
-     15. WE use git checkout -b [newbranchname...] to create and switch to a new branch in a single command.
-     16. WE use git -d [branchname...] to delete the specified branch.Note we cannot delete the branch we are currently on.
-     17. WE use git merge [branchname...] to merge the specified branch into the current branch.
-     18. There are two ways to merge and compare branches one is by using git commands and other is by using Pull Requests(PR) on GitHub.
-     19. WE use git diff [SpecificBranchname...] to see the differences between the current branch and the specific branch.
-     20. We use git merge [SpecificBranchname...] to merge the specific branch into the current branch.
-     21. For merging branches on Github we need to send a pull request(PR) to the repository owner and after review the changes will be merged.
-     22. WE use git pull origin [branchname...] to pull the latest changes from the remote repository to the local repository.
-     23. WE use git push origin [branchname...] to push the local changes to the remote repository.
-     24. Also there are two ways to check commit history one is by using git log command and other is by using GitHub website.
-     25. Also we can copy the commit hash from git log and also from GitHub website.
-     26. WE can use git reset [commit hash...] to reset the current branch to the specified commit hash.Also we can use git reset --hard [commit hash...] to reset the git to a specific commit also from the VS code.
-     27. WE can use git clone [repository URL...] to clone a remote repository to the local machine.
-     28. WE use git reset [FileNAme...] to unstage a file.
-     29. WE use git reset to unstage all the files.
-     30. WE use git reset HEAD~1 to undo the last commit.
-     31. We initialize our empty local git using **git int** command.
-     32. We can Clone our remote repository in our Empty local repository using git **clone <repository-url>** command.
-     33. We can pull changes from our Remote repository to our local repository using git pull origin <branchname> command.
-     34. git fetch origin This command downloads all new data from the remote but doesn’t change your working files.
-     35. There is no direct command to sync changes so we first push changes and then pull changes or vice versa.
-     36. Origin is just a name that we give to that paricular repository. We can also write any name instead of that.
-     37. WE can use git push origin main --force command to forcely push changes from local to remote if remote repo have some content which your local dont have. 
-     38. WE can use git remote add origin <Repo URL> command to just link a local repo to the remote repo without cloning. 
-     39. WE can use git remote -v command to verify if our both local and remote are linked or not.
-     40. If you accidently link to wrong remote repo then you can remove it using git remote remove origin command and then link it again using git remote add origin <remote repo url>.
-     41. Donot run git add . command in an empty folder atleast create one html dummy file to avoid errors while pushing to remote.
+<center>                               <h1>"Git & Terminal Learning Notes & Commands"</h1>
+</center>        
+     1. We can use git --help to see all the git commands and their usage. <br>
+     1.WE can use git clone [repository URL...] to clone a remote repository to the local machine. <br>
+     2. We can add files and changes by using git add [commandfilename...]. <br>
+     3. Also if there are large amount of files then we just just git add . command only and all the files will be added to the repository and become staged. <br>
+     4. WE can use clear command to clear all the commands in the terminal.<br>
+     5. WE can use ls command to see all the files and directories in the current directory. br
+     6. WE can use cd [nameofTargetdirectory...] command to change the directory to the Target directory. <br>
+     7. WE can use cd .. command to go back to the previous directory. <br>
+     8. WE can use mkdir [nameofdirectory...] command to create a new directory. <br>
+     9. We can use touch [nameoffile...] command to create a new file. <br>
+     10. WE can use git config --global user.name "your name" to set the user name for git commits. <br>
+     11. WE can use git config --global user.email "your email" to set the user email for git commits. <br>
+     12. WE can use git config --global --list to see the list of all the global configurations. <br>
+     13. WE use git branch [branchname...] to create a new branch. <br>
+     14. WE use git checkout [Targetbranchname...] to switch to the specified branch. <br>
+     15. WE use git checkout -b [newbranchname...] to create and switch to a new branch in a single command. <br>
+     16. WE use git -d [branchname...] to delete the specified branch.Note we cannot delete the branch we are currently on. <br>
+     17. WE use git merge [branchname...] to merge the specified branch into the current branch. <br>
+     18. There are two ways to merge and compare branches one is by using git commands and other is by using Pull Requests(PR) on GitHub. <br>
+     19. WE use git diff [SpecificBranchname...] to see the differences between the current branch and the specific branch. <br>
+     20. We use git merge [SpecificBranchname...] to merge the specific branch into the current branch. <br>
+     21. For merging branches on Github we need to send a pull request(PR) to the repository owner and after review the changes will be merged. <br>
+     22. WE use git pull origin [branchname...] to pull the latest changes from the remote repository to the local repository. <br>
+     23. WE use git push origin [branchname...] to push the local changes to the remote repository. <br>
+     24. Also there are two ways to check commit history one is by using git log command and other is by using GitHub website. <br>
+     25. Also we can copy the commit hash from git log and also from GitHub website. <br>
+     26. WE can use git reset [commit hash...] to reset the current branch to the specified commit hash. <br>Also we can use git reset --hard [commit hash...] to reset the git to a specific commit also from the VS code. <br>
+     27. WE can use git clone [repository URL...] to clone a remote repository to the local machine. <br>
+     28. WE use git reset [FileNAme...] to unstage a file. <br>
+     29. WE use git reset to unstage all the files. <br>
+     30. WE use git reset HEAD~1 to undo the last commit. <br>
+     31. We initialize our empty local git using **git int** command. <br>
+     32. We can Clone our remote repository in our Empty local repository using git **clone <repository-url>** command. <br>
+     33. We can pull changes from our Remote repository to our local repository using git pull origin <branchname> command. <br>
+     34. git fetch origin This command downloads all new data from the remote but doesn’t change your working files. <br>
+     35. There is no direct command to sync changes so we first push changes and then pull changes or vice versa. <br>
+     36. Origin is just a name that we give to that paricular repository. We can also write any name instead of that. <br>
+     37. WE can use git push origin main --force command to forcely push changes from local to remote if remote repo have some content which your local dont have.  <br>
+     38. WE can use git remote add origin <Repo URL> command to just link a local repo to the remote repo without cloning.  <br>
+     39. WE can use git remote -v command to verify if our both local and remote are linked or not. <br>
+     40. If you accidently link to wrong remote repo then you can remove it using git remote remove origin command and then link it again using git remote add origin <remote repo url>. <br>
+     41. Donot run git add . command in an empty folder atleast create one html dummy file to avoid errors while pushing to remote. <br>
 
 
-     -->
+     
 
-      <!--                           Git & GitHub True WORKFLOW
-        
-        1. Create a local repository on your machine wite your code and intialize it by using git init command.
-        2. Create a new repository on GitHub with the same name as local repo and copy its url.
-        3. Now link both local and remote repo using git remote add origin <remote repo url>.
-        4. Then verify the linkage using git remote -v command.
-        5. If you accidently link to wrong remote repo then you can remove it using git remote remove origin command and then link it again using git remote add origin <remote repo url>.
-        6. Then apply git add . command. Donot run git add . command in an empty folder atleast create one html dummy file to avoid errors while pushing to remote.
-        7. Then apply commit command git commit -m "message".
-        8. Then forcely push the changes using git push origin <branch name> --force command.
+<center><h1>                                 Git & GitHub True WORKFLOW
+</h1></center>        
+        1. Create a local repository on your machine wite your code and intialize it by using git init command. <br>
+        2. Create a new repository on GitHub with the same name as local repo and copy its url. <br>
+        3. Now link both local and remote repo using git remote add origin <remote repo url>. <br>
+        4. Then verify the linkage using git remote -v command. <br>
+        5. If you accidently link to wrong remote repo then you can remove it using git remote remove origin command and then link it again using git remote add origin <remote repo url>. <br>
+        6. Then apply git add . command. Donot run git add . command in an empty folder atleast create one html dummy file to avoid errors while pushing to remote. <br>
+        7. Then apply commit command git commit -m "message". <br>
+        8. Then forcely push the changes using git push origin <branch name> --force command. <br>
 
 
-                              False Workflow
-
-        1. Create a new repository on GitHub.
-        2. Create a local repository on your machine and intialize it by using git init command.
-        2. Clone the repository to your local machine using git clone [repository URL].
-        3. Navigate to the repository directory using cd [repository name].
-        4. Make changes to your files and use git add [file name] or git add . to stage the changes.
-        5. Commit the changes with a descriptive message using git commit -m "your message".
-        6. Push the changes to the remote repository using git push origin [branch name].
+<center><h3>                              False Workflow
+</h3></center>
+        1. Create a new repository on GitHub. <br>
+        2. Create a local repository on your machine and intialize it by using git init command. <br>
+        2. Clone the repository to your local machine using git clone [repository URL]. <br>
+        3. Navigate to the repository directory using cd [repository name]. <br>
+        4. Make changes to your files and use git add [file name] or git add . to stage the changes. <br>
+        5. Commit the changes with a descriptive message using git commit -m "your message". <br>
+        6. Push the changes to the remote repository using git push origin [branch name]. <br>
 
       
-      -->
+     
     
 
 
