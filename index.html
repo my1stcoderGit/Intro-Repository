@@ -34,11 +34,12 @@
      23. WE use git push origin [branchname...] to push the local changes to the remote repository. <br>
      24. Also there are two ways to check commit history one is by using git log command and other is by using GitHub website. <br>
      25. Also we can copy the commit hash from git log and also from GitHub website. <br>
-     26. WE can use git reset [commit hash...] to reset the current branch to the specified commit hash. <br>Also we can use git reset --hard [commit hash...] to reset the git to a specific commit also from the VS code. <br>
+     26. WE can use git reset [commit hash...] to reset only the current branch commit history to the specified commit hash. <br>
+     we can use git reset --hard [commit hash...] to reset the branch commit history as well as changes to a specific commit. <br>
      27. WE can use git clone [repository URL...] to clone a remote repository to the local machine. <br>
      28. WE use git reset [FileNAme...] to unstage a file. <br>
      29. WE use git reset to unstage all the files. <br>
-     30. WE use git reset HEAD~1 to undo the last commit. <br>
+     30. WE use git reset HEAD~1 to undo the last commit history only. while the git reset --hard HEAD~1 command undo the last commit history as well as changes made in the directory. <br>
      31. We initialize our empty local git using **git int** command. <br>
      32. We can Clone our remote repository in our Empty local repository using git **clone <repository-url>** command. <br>
      33. We can pull changes from our Remote repository to our local repository using git pull origin <branchname> command. <br>
